@@ -152,6 +152,7 @@ function RecruitmentPage() {
             onSubmit={(event) => {
               event.preventDefault();
               setSubmitted(true);
+              window.location.href = `${import.meta.env.BASE_URL}thank-you.html`;
             }}
           >
             <label>
